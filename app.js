@@ -1,5 +1,7 @@
 console.log('In The Name Of Allah, The Most Beneficent, The Most Merciful.');
 
-let x = 100
-x |= 5
-console.log('Value of x is: ' + x);
+let x1 = 34.00;
+let x2 = 34;
+let x3 = 3.14;
+
+document.getElementById('demo').innerHTML = x1 + '<br>' + x2 + '<br>' + x3
