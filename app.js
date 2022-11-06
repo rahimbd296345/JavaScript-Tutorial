@@ -1,7 +1,14 @@
 console.log('In The Name Of Allah, The Most Beneficent, The Most Merciful.');
+// Write your code:
 
-let x1 = 34.00;
-let x2 = 34;
-let x3 = 3.14;
 
-document.getElementById('demo').innerHTML = x1 + '<br>' + x2 + '<br>' + x3
+
+myFunction()
+
+function myFunction() {
+    let carName = 'Volvo'
+    document.getElementById('demo').innerHTML = typeof carName + ' ' + carName;
+}
+
+document.getElementById('demo1').innerHTML = typeof carName;
+
