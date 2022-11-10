@@ -2,18 +2,18 @@
 <html>
 <body>
 
-<h2>JavaScript HTML Events</h2>
-<p>Click the button to display the date.</p>
-
-<button onclick="displayDate()">The time is?</button>
-
-<script>
-  function displayDate() {
-    document.getElementById("demo").innerHTML = Date();
-  }
-</script>
+<h1>JavaScript Strings</h1>
+<h2>The trim() Method</h2>
 
 <p id="demo"></p>
+
+<script>
+  let text1 = "     Hello World!     ";
+  let text2 = text1.trim();
+
+  document.getElementById("demo").innerHTML =
+    "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+</script>
 
 </body>
 </html>
