@@ -3,16 +3,16 @@
 <body>
 
 <h1>JavaScript Strings</h1>
-<h2>The trim() Method</h2>
+<h2>The startsWith() Method</h2>
+<p>Check if a string starts with "Hello":</p>
 
 <p id="demo"></p>
 
-<script>
-  let text1 = "     Hello World!     ";
-  let text2 = text1.trim();
+<p>The startsWith() method is not supported in Internet Explorer.</p>
 
-  document.getElementById("demo").innerHTML =
-    "Length text1 = " + text1.length + "<br>Length text2 = " + text2.length;
+<script>
+  let text = "Hello world, welcome to the universe.";
+  document.getElementById("demo").innerHTML = text.startsWith("Hello");
 </script>
 
 </body>
