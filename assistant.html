@@ -2,17 +2,15 @@
 <html>
 <body>
 
-<h1>JavaScript Strings</h1>
-<h2>The startsWith() Method</h2>
-<p>Check if a string starts with "Hello":</p>
+<h1>JavaScript Numbers</h1>
+<h2>The POSITIVE_INFINITY Property</h2>
 
+<p>POSITIVE_INFINITY is returned on overflow:</p>
 <p id="demo"></p>
 
-<p>The startsWith() method is not supported in Internet Explorer.</p>
-
 <script>
-  let text = "Hello world, welcome to the universe.";
-  document.getElementById("demo").innerHTML = text.startsWith("Hello");
+  let x = 1 / 0;
+  document.getElementById("demo").innerHTML = x;
 </script>
 
 </body>
