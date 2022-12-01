@@ -2,23 +2,20 @@
 <html>
 <body>
 
-<h2>JavaScript switch</h2>
+<h2>JavaScript For Of Loop</h2>
+
+<p>The for of statement loops through the values of an iterable object.</p>
 
 <p id="demo"></p>
 
 <script>
-  let x = "0";
+  let language = "JavaScript";
 
-  switch (x) {
-    case 0:
-      text = "Off";
-      break;
-    case 1:
-      text = "On";
-      break;
-    default:
-      text = "No value found";
+  let text = "";
+  for (let x of language) {
+    text += x + "<br>";
   }
+
   document.getElementById("demo").innerHTML = text;
 </script>
 

@@ -1,14 +1,8 @@
-let x = '0'
+let language = 'JavaScript'
 
-switch (x) {
-  case 0:
-    text = 'Off'
-    break
-  case 1:
-    text = 'On'
-    break
-  default:
-    text = 'No value found'
+let text = ''
+for (let x of language) {
+  text += x + '<br>'
 }
 
 document.getElementById('demo').innerHTML = text
