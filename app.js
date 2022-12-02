@@ -1,8 +1,11 @@
-let language = 'JavaScript'
+const cars = ['BMW', 'Volvo', 'Saab', 'Ford']
 
-let text = ''
-for (let x of language) {
-  text += x + '<br>'
+let i = 0;
+let text = '';
+
+for (; cars[i];) {
+  text += cars[i] + '<br>'
+  i++;
 }
 
 document.getElementById('demo').innerHTML = text
