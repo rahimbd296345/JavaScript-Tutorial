@@ -1,11 +1,9 @@
-const cars = ['BMW', 'Volvo', 'Saab', 'Ford']
+const fruits = new Map([
+  ['apples', 300],
+  ['bananas', 300],
+  ['oranges', 200]
+])
 
-let i = 0;
-let text = '';
+fruits.set('apples', 200)
 
-for (; cars[i];) {
-  text += cars[i] + '<br>'
-  i++;
-}
-
-document.getElementById('demo').innerHTML = text
+document.getElementById('demo').innerHTML = fruits.get('apples')
